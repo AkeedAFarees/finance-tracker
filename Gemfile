@@ -12,6 +12,11 @@ gem 'rails', '~> 5.1.4'
 gem 'devise'
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
+
+gem 'stock_quote'
+
+gem 'yahoo-finance', '~> 1.2', '>= 1.2.1'
+
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
@@ -22,6 +27,10 @@ gem 'uglifier', '>= 1.3.0'
 # gem 'therubyracer', platforms: :ruby
 
 gem 'heroku', '~> 3.99', '>= 3.99.1'
+
+gem 'sqlite3'
+
+#gem 'pg', '~> 0.21.0'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
@@ -44,9 +53,7 @@ group :development, :test do
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
   # Use sqlite3 as the database for Active Record
-  gem 'sqlite3'
 
-  gem 'pg', '~> 0.21.0'
 
 end
 
